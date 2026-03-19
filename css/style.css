@@ -16,6 +16,17 @@
     gap: 15px;
 }
 
+.rodape-site {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 .link-menu {
     text-decoration: none;
     color: #333;
@@ -46,3 +57,47 @@
     padding: 20px;
     border-radius: 8px;
 }
+
+
+.link-menu {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.link-menu:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.campo-entrada {
+    width: 40%;
+    align-self: flex-start;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+}
+
+.botao-enviar {
+    background-color: #000080;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: default;
+    transition: background-color 0.3s ease;
+    width: fit-content;
+    align-self: flex-start;
+}
+
+.botao-enviar:hover {
+    background-color: #218838;
+}
+
+  
